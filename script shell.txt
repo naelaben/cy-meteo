@@ -1,0 +1,24 @@
+#!/bin/bash
+> chmod -r meteo.sh
+
+> ./meteo.sh
+
+ls "meteo_filtered_data_v1.csv"
+
+fichier1="meteo_filtered_data_v1.csv"
+while read row ; do  
+   echo $row  
+done < $fichier1
+
+$ cut -d -f -11 fichier1 > temperature
+
+$ cut -d -f -7 fichier1 > pression_atmospherique
+
+$ cut -d -f -5 fichier1 > vent
+
+$ cut -d -f -6 fichier1 > humidite
+
+$ cut -d -f -14 fichier1 > altitude_station
+
+
+ 

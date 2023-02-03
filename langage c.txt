@@ -1,0 +1,19 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include "meteo.sh"
+
+//pour ouvrir les fichiers correspondant
+
+FILE* fopen(temperature, "r");
+FILE* fopen(vent, "r");
+FILE* fopen(altitude_station, "r");
+FILE* fopen(pression_atmospherique, "r");
+FILE* fopen(humidite, "r");
+
+int main(int argc, char *argv[])
+{
+    FILE* fichier = NULL;
+
+    return 0;
+}
